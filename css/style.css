@@ -1,0 +1,725 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+
+    margin: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+
+.logo {
+
+    width: 20%;
+
+    margin-left: 13%;
+
+}
+
+.menu {
+
+    width: 50%;
+
+    color: #8d939c;
+
+    text-transform: uppercase;
+
+    font-weight: 400;
+
+}
+
+.menu ul {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: end;
+
+}
+
+.menu ul li {
+
+    margin-right: 7%;
+
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+
+}
+
+.banner {
+    background-image: url(../image/banner.png);
+    min-height: 89vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+
+    position: relative;
+}
+
+.banner_content {
+
+    left: 50%;
+
+    width: 42%;
+
+    position: absolute;
+
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+.banner_content h1 {
+
+    margin-bottom: 1;
+
+    color: white;
+
+    text-transform: uppercase;
+
+    font-size: 54px;
+
+    margin-bottom: 10px;
+}
+
+.banner_content span {
+
+    display: block;
+
+    background-color: #15a4fa;
+
+    height: 2px;
+
+    width: 100%;
+
+    margin-bottom: 16px;
+}
+
+.banner_content p {
+
+    color: white;
+
+    font-size: 16px;
+}
+
+.banner_content button {
+
+    margin-top: 77px;
+
+    background-color: transparent;
+
+    border: none;
+
+    border: 1px solid #15a4fa;
+
+    padding: 11px 24px;
+
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .4s all ease-in-out;
+}
+
+.banner_content button:hover {
+    background-color: red;
+}
+
+.icon {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    color: white;
+    font-size: 20px;
+    animation: updown 1s linear infinite;
+}
+
+@keyframes updown {
+    0% {
+        bottom: 70px;
+    }
+
+    100% {
+        bottom: 50px;
+
+    }
+}
+
+.paragraph {
+
+    background-color: #f6f9f9;
+}
+
+.paragraph_content {
+
+    width: 52%;
+
+    text-align: center;
+
+    margin-left: 24%;
+
+    padding-top: 45px;
+}
+
+.paragraph_content h3 {
+
+    text-transform: capitalize;
+
+    font-size: larger;
+
+    font-weight: 500;
+
+    margin-bottom: 17px;
+}
+
+.paragraph_content p {
+
+    color: #c1c3c3;
+
+    font-size: 16px;
+}
+
+.features {
+    display: flex
+}
+
+.iteam1 {
+
+    width: 80%;
+
+    margin: auto;
+
+    padding: 45px;
+
+    text-align: center;
+}
+
+.mobile {
+
+    height: 50px;
+
+    width: 50px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+1,48baff+50,5fc3ff+50,5fc3ff+50,5fc3ff+99 */
+    background: #48baff;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #48baff 1%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #48baff 1%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #48baff 1%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#48baff', endColorstr='#5fc3ff', GradientType=1);
+    /* IE6-9 */
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    font-size: 23px;
+
+    margin:
+        auto;
+}
+
+.mobile i {}
+
+.iteam1 h4 {
+
+    color: #2d3950;
+
+    margin-top: 20px;
+
+    font-weight: 500;
+}
+
+.iteam1 p {
+
+    color: #ced0d0;
+
+    font-size: 16px;
+
+    margin-top: 19px;
+}
+
+.iteam2 {
+    width: 80%;
+
+    margin: auto;
+
+    padding: 45px;
+
+    text-align: center;
+
+}
+
+.iteam2 h4 {
+    color: #2d3950;
+
+    margin-top: 20px;
+
+    font-weight: 500;
+
+}
+
+.iteam2 p {
+    color: #ced0d0;
+
+    font-size: 16px;
+
+    margin-top: 19px;
+
+}
+
+.paperplane {
+    height: 50px;
+
+    width: 50px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+1,48baff+50,5fc3ff+50,5fc3ff+50,5fc3ff+99 */
+    background: #48baff;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #48baff 1%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #48baff 1%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #48baff 1%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#48baff', endColorstr='#5fc3ff', GradientType=1);
+    /* IE6-9 */
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    font-size: 23px;
+
+    margin:
+        auto;
+
+}
+
+.iteam3 {
+    width: 80%;
+
+    margin: auto;
+
+    padding: 45px;
+
+    text-align: center;
+
+}
+
+.iteam3 h4 {
+    color: #2d3950;
+
+    margin-top: 20px;
+
+    font-weight: 500;
+}
+
+.iteam3 p {
+    color: #ced0d0;
+
+    font-size: 16px;
+
+    margin-top: 19px;
+}
+
+.announmnt {
+    height: 50px;
+
+    width: 50px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+1,48baff+50,5fc3ff+50,5fc3ff+50,5fc3ff+99 */
+    background: #48baff;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #48baff 1%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 99%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #48baff 1%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #48baff 1%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#48baff', endColorstr='#5fc3ff', GradientType=1);
+    /* IE6-9 */
+
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    font-size: 23px;
+
+    margin: auto;
+}
+
+.gallary_section {
+
+    background-color: #f6f9f9;
+}
+
+.gallary_content h3 {
+
+    font-weight: 500;
+
+    color: #2d3950;
+}
+
+.gallary_content h6 {
+
+    color: #989898;
+
+    padding: 13px;
+
+    font-size: smaller;
+}
+
+.gallary_content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 43px;
+}
+
+.gallary {
+
+    width: 80%;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    margin: auto;
+
+    justify-content: space-evenly;
+
+}
+
+.gallary_item {
+
+    width: 32%;
+
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallary_item img {
+
+    width: 100%;
+}
+
+.gallary_item::after {
+
+    content: '';
+    left: 0%;
+    top: 0%;
+
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: red;
+
+    transition: .4s all ease-in-out;
+    opacity: .5;
+
+    display: bo
+}
+
+.gallary_item:hover::after {
+    height: 50%;
+
+
+
+}
+
+.gallary_item::before {
+
+    content: '';
+    right: ;
+    : 0%;
+    bottom: 0%;
+
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: blueviolet;
+
+    transition: .8s all ease-in-out;
+    opacity: .5;
+
+
+}
+
+.gallary_item:hover::before {
+    height: 50%;
+
+
+
+}
+
+.gallary_icon {
+
+    position: absolute;
+
+    left: 50%;
+
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 999;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.gallary_icon ul {
+
+    list-style: none;
+
+    display: flex;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.gallary_icon ul li {
+
+    /* display: flex; */
+
+    height: 30px;
+
+    width: 30px;
+
+    margin: 5px;
+
+    border: 2px solid white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 3px;
+}
+
+.gallary_icon ul li a {
+
+    color: #fff;
+}
+
+.gallary_icon ul li a i {}
+
+.gallary_item:hover .gallary_icon {
+    opacity: 1;
+}
+
+.contact_sec {
+    background-image: url(../image/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+}
+.contact_sec::after{
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    opacity:.7;
+    background-color:#2d3950;
+    z-index: -1;
+
+}
+
+
+.contact_content {
+
+    text-align: center;
+
+    width: 500px;
+
+    padding: 50px;
+    
+}
+
+.contact_content h3 {
+
+    color: #fff;
+
+    /* margin-bottom: 22px; */
+
+    text-transform: capitalize;
+
+    font-size: xx-large;
+
+    font-weight: 500;
+
+    /* margin-top: 49px; */
+}
+
+.contact_content p {
+
+    margin-bottom: 17px;
+
+    color: white;
+
+    font-size: small;
+
+    margin-left: 10px;
+
+    text-transform: capitalize;
+}
+
+.contact_content form {}
+
+.contact_content form input {
+
+    background-color: transparent;
+
+    /* color: brown; */
+
+    border: 2px solid #fff;
+
+    width: 95%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    border-radius: 5PX;
+}
+
+.contact_content form textarea {
+
+    background-color: transparent;
+
+    /* color: brown; */
+
+    border: 2px solid #fff;
+
+    width: 95%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    border-radius: 5PX;
+}
+
+.send_form {
+
+    width: 500px;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.checkbox {
+
+    display: flex;
+
+    width: 50%;
+}
+
+.checkbox input {
+
+    width: 16px ! important;
+}
+
+.checkbox p {
+
+    margin-bottom: 0;
+}
+
+.send_button {
+
+    width: 50%;
+
+    /* display: flex; */
+
+    /* justify-content: end; */
+
+    text-align: end;
+}
+
+.send_button input {
+
+    width: inherit !important;
+
+    color: white;
+
+    margin-bottom: 0 !important;
+}
+.contact_content form input::placeholder{
+    color: #fff;
+}
+.contact_content form textarea::placeholder{
+    color: #fff;
+}
+footer{
+
+}
+.footer_section{
+
+}
+.copyright{
+
+}
+.copyright h6{
+
+}
+.icon{
+
+}
+.icon ul{
+
+}
+.icon ul li{
+
+}
+.icon ul li a{
+
+}
